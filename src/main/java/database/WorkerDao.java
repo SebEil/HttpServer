@@ -34,7 +34,7 @@ public class WorkerDao {
         worker.setName(workerName);
         workerDao.insert(worker);
         for (Worker w : workerDao.list()) {
-            System.out.println(worker);
+            System.out.println(w);
         }
     }
 
